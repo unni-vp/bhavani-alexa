@@ -1,4 +1,4 @@
-package com.main;
+package com.unnivp.main;
 
 import com.amazon.ask.Skill;
 import com.amazon.ask.SkillStreamHandler;
