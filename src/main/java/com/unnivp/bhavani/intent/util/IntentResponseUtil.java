@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class IntentResponseUtil {
 
-	public static Map<String, String> intentResponseMap;
+	private Map<String, String> intentResponseMap;
 
 	public IntentResponseUtil() {
 
@@ -48,6 +48,15 @@ public class IntentResponseUtil {
 				"Sonthosh, Egg Man of C P, is an upcoming tamil mimicry artist. When he is not eating omelettes, "
 				+ "he promotes AI ringtone among the C P colleagues.");
 
+	}
+	
+	public Map<String, String> getIntentResponseMap() {
+		return intentResponseMap;
+	}
+	
+	public static Map<String, String> getMap() {
+		
+		return (new IntentResponseUtil()).getIntentResponseMap();
 	}
 
 }

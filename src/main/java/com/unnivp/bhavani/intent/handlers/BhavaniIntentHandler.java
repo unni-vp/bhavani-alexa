@@ -41,7 +41,7 @@ public class BhavaniIntentHandler implements RequestHandler {
 		AtomicReference<String> speechText = new AtomicReference<>();
 		speechText.set(DEFAULT_RESPONSE);
 
-		IntentResponseUtil.intentResponseMap.forEach((intent, response) -> {
+		IntentResponseUtil.getMap().forEach((intent, response) -> {
 			
 			// Return the response text for the matching intent from the speech response map. 
 			if (input.matches(intentName(intent))) {
