@@ -1,0 +1,115 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ente bhavaani",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BhavaniQOneIntent",
+                    "slots": [],
+                    "samples": [
+                        "sujith e s",
+                        "sujith"
+                    ]
+                },
+                {
+                    "name": "BhavaniQTwoIntent",
+                    "slots": [],
+                    "samples": [
+                        "sumesh kumar",
+                        "sumesh"
+                    ]
+                },
+                {
+                    "name": "BhavaniQThrIntent",
+                    "slots": [],
+                    "samples": [
+                        "vimal raj",
+                        "vimal"
+                    ]
+                },
+                {
+                    "name": "BhavaniQForIntent",
+                    "slots": [],
+                    "samples": [
+                        "jibi",
+                        "jiby george",
+                        "aashaan",
+                        "jiby"
+                    ]
+                },
+                {
+                    "name": "BhavaniQFivIntent",
+                    "slots": [],
+                    "samples": [
+                        "navya divakara menon",
+                        "navya menon",
+                        "navya"
+                    ]
+                },
+                {
+                    "name": "BhavaniQSixIntent",
+                    "slots": [],
+                    "samples": [
+                        "hafeesa",
+                        "hafisa",
+                        "afisa",
+                        "afeesa"
+                    ]
+                },
+                {
+                    "name": "BhavaniQEgtIntent",
+                    "slots": [],
+                    "samples": [
+                        "Nithin krishnan",
+                        "Nithin"
+                    ]
+                },
+                {
+                    "name": "BhavaniQNinIntent",
+                    "slots": [],
+                    "samples": [
+                        "gireesh nemath",
+                        "gireesh bhai",
+                        "gireesh"
+                    ]
+                },
+                {
+                    "name": "BhavaniQTenIntent",
+                    "slots": [],
+                    "samples": [
+                        "macintosh",
+                        "santhosh",
+                        "sonthosh"
+                    ]
+                },
+                {
+                    "name": "BhavaniQSevIntent",
+                    "slots": [],
+                    "samples": [
+                        "jithin joji",
+                        "jithin joji sebastian",
+                        "joji",
+                        "jithin"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
