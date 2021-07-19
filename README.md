@@ -1,14 +1,15 @@
 # bhavani-alexa
-A fun Amazon Alexa skill that lets you know interesting facts about friends at my office's 'Chaya Kada' (Tea Shop). The project utilizes Alexa Skills Kit SDK for Java.
+A fun Amazon Alexa skill that lets you know interesting facts about my friends at office's 'Chaya Kada' (Tea Shop). The project utilizes Alexa Skills Kit SDK for Java.
 
 This skill need to be hosted as an AWS Lambda Function, and will handle requests from Alexa. The code:
- - Recognizes each incoming intent request that Alexa sends, invoked by requesting 'Alexa, Ask Ente Bhavani, Who is <name>?'
- - Returns a funny response about the person in question
+ - Recognizes each incoming intent request that Alexa sends. Intent request can be invoked by requesting *'Alexa, Ask Ente Bhavani, Who is \<name>?'*.
+ - Returns a funny response about the person in question.
   
 ## Usage
 To run this skill, below steps are required:
   1. Deploy the source code in AWS Lambda.
   2. Configure the Alexa skill to use Lambda.
+  3. Setup the alexa skill on Alexa app/Amazon Echo
 
 ### Setup AWS Lambda
   1. Build the deployment package to be uploaded to Lambda. Run `mvn assembly:assembly -DdescriptorId=jar-with-dependencies package` in the project root directory. This will generate a jar file in the target directory.
@@ -27,9 +28,9 @@ To run this skill, below steps are required:
   6. Go back to the Skill Information (listing) tab and 'Copy the SkillId'. Update the skill id in the `BVRequestStreamHandler` class.
 
 ### Amazon App and Echo Setup
-  1. Login to Alexa app using the same credentials used for Alexa console.
+  1. Login to 'Amazon Alexa' app using the same credentials used for Alexa console.
   2. Navigate to 'More > Skills and Games > Your Skills > Dev'. Enable the 'Bhavani' skill.
-  3. Switch on Amazon Echo, and ask `alexa ask ente bhavaani who is <insert name here>`. You should be able to get a response for a valid name.
+  3. Switch on Amazon Echo, and ask `alexa ask ente bhavaani who is <insert name here>`. Alternatively, you can also enable 'Alexa Hands Free' from your Alexa App settings, and ask directly on the app. You should be able to get a response for a valid name.
 
 ### Examples
  - USER: Alexa ask ente bhavaani who is Sujith?
